@@ -2,14 +2,14 @@
 import streamlit as st
 import statistics as stat
 from func import *
-st.set_page_config(page_title="CAFÉ SALES ANALYZER", layout='centered')
+st.set_page_config(page_title="Byte Café",page_icon="☕" , layout='centered')
 
 if "purchase_amounts" not in st.session_state:
     st.session_state.purchase_amounts = []
 if "names" not in st.session_state:
     st.session_state.names = []
 
-st.title("Byte Cafe")
+st.title("Byte Café ☕")
 st.header("CAFÉ SALES ANALYZER")
 st.markdown("#####  Enter purchase amounts, analyze the data, and display the results")
 name = st.text_input("Enter your name:")
