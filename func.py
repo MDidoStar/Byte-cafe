@@ -1,4 +1,6 @@
 # Functions
+import streamlit as st
+import statistics as stat
 def new_zero_list(l):
     p = []
     for u in l:
